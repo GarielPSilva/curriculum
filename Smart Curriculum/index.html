@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Smart Curriculum">
+    <meta name="keywords" content="HTML,CSS,JavaScript">
+    <meta name="author" content="Gabriel Peres">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .box1 {
+            color: rgb(0, 0, 0);
+            height: 200;
+            text-align: center;
+            padding: 10px;
+            border-radius: 15px; /* Bordas arredondadas */
+            border: 2px solid black; /* Borda preta */
+            display: flex; /* Coloca imagem e texto lado a lado */
+            align-items: center; /* Alinha verticalmente */
+            justify-content: center; /* Centraliza horizontalmente */
+            width: 60%;
+            gap: 15px; /* Espaço entre imagem e texto */
+        }
+        .box1 h1{
+            color: rgb(255, 255, 255);
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 36px;
+            font-weight: bold;
+
+            
+            
+        }
+        .profile-img {
+            width: 200px; /* Tamanho da imagem */
+            height:200px; /* Mantém proporcional */
+            border-radius: 50%; /* Deixa a imagem redonda */
+            object-fit: cover; /* Ajusta a imagem dentro do círculo */
+        }
+    </style>
+</head>
+<body style="background-color: rgba(15, 15, 15, 0.993);">
+    <div class="box1">
+        <img src="eu.jpg" alt="Smile Boy, White shirt of Chicago Bulls, Goatee" class="profile-img">
+        <h1>Smart Curriculum</h1>
+    </div>
+    <div class="container">
+        <!-- Card 1 -->
+        <div class="card">
+            <img src="counter-strike-2.jpg" alt="Jogo 1">
+            <button class="btn" onclick="toggleSinopse(0)">Ver Sinopse</button>
+            <p class="sinopse">This is an incredible shooting, action and strategy game. It was release on 11/1/2000 under the name Counter-Strike 1.6!</p>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="card">
+            <img src="Vôlei.jpg" alt="Esporte 1">
+            <button class="btn" onclick="toggleSinopse(1)">Ver Sinopse</button>
+            <p class="sinopse">The sport that marked my childhood</p>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="card">
+            <img src="Interestelar.jpg" alt="Filme 1">
+            <button class="btn" onclick="toggleSinopse(2)">Ver Sinopse</button>
+            <p class="sinopse">A movie that grabs your attention with the physics and science behind wormholes and habitable planets .</p>
+        </div>
+    </div>
+    <script>
+        function toggleSinopse(index) {
+            const sinopses = document.querySelectorAll('.sinopse');
+            sinopses[index].classList.toggle('ativo');
+        }
+    </script>
+</body>
+</html>

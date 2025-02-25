@@ -1,0 +1,35 @@
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(241, 239, 214, 0.932);
+    margin: 10px;
+    padding: 20px;
+    height: 1px;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+}
+
+img {
+    border-radius: 50%;
+    border: 2px solid blue;
+}
+
+th{
+    font-weight: bold;
+}
+
+table{
+    width: 10px;
+}
+
+
+
+/* background-color .
+color .
+width,  height,   border .
+font-weight .
+font-size .
+margin, padding .*/ 
