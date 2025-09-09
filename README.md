@@ -14,9 +14,9 @@ O que aprendi;
 Que são as listas o ul serve para linhas não ordenadas
 Cada item da lista é representado pelo li.
 
-<header>
+//<header>
   que é a introdução dos conteúdos, onde normalmente ficam também os elementos h1, h2...
 </header>
-<footer>
+//<footer>
   que define as partes finais de um documento, como por exemplo o meu 2024 Currículo. Normalmente utilizam para informações do autor, copyright e etc...
 </footer>
