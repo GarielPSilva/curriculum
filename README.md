@@ -13,6 +13,7 @@ Lista de compras
 </ul>
 
 o ul define o início e fim da lista não ordenada
+<br>
 Cada item da lista é representado pelo li.
 
 //<header>
