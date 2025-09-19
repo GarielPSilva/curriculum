@@ -5,13 +5,14 @@ HTML;
 CSS;
 
 O que aprendi;
+Lista de compras
 <ul>
-  <li>1</li>
-  <li>2</li>
-  <li>3</li>
+  <li>leite</li>
+  <li>pão</li>
+  <li>ovo</li>
 </ul>
 
-Que são as listas o ul serve para linhas não ordenadas
+o ul define o início e fim da lista não ordenada
 Cada item da lista é representado pelo li.
 
 //<header>
