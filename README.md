@@ -17,8 +17,10 @@ o ul define o início e fim da lista não ordenada
 Cada item da lista é representado pelo li.
 
 header
+<br>
   que é a introdução dos conteúdos, onde normalmente ficam também os elementos h1, h2...
 
 footer
+<br>
   que define as partes finais de um documento, como por exemplo o meu 2024 Currículo. Normalmente utilizam para informações do autor, copyright e etc...
 
